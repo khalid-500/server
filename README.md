@@ -1,5 +1,14 @@
 # 1-3server
 
+## installation
+```javascript
+npm i express
+npm i socket.io
+npm i cors
+npm i nodemon
+npm i cookie-parser
+```
+
 ## require
 ```javascript
 //required express js section
