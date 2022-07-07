@@ -1,4 +1,4 @@
-# 1-3server
+# server
 
 ## installation
 ```javascript
@@ -81,5 +81,18 @@ async function start(PORT){// WHE MUST RUN DATABASE CONNECTION BEFORE LISTEN TO 
 }
 
 ```
+
+
+
+# index.js section
+
+```javascript
+'use strict'
+require('dotenv').config();
+const server = require('./src/server/server');
+let PORT = process.env.PORT || 3000;
+server.start(PORT);
+```
+
 
 
