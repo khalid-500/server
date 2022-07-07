@@ -95,4 +95,11 @@ server.start(PORT);
 ```
 
 
+ # pakage-json
+  "scripts": {
+    "test": "NODE_ENV=test jest  --verbose",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  
 
