@@ -2,11 +2,7 @@
 
 ## installation
 ```javascript
-npm i express
-npm i socket.io
-npm i cors
-npm i nodemon
-npm i cookie-parser
+npm i express socket.io cors nodemon cookie-parser
 ```
 
 ## require
